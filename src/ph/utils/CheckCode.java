@@ -1,4 +1,4 @@
-package ph.untils;
+package ph.utils;
 
 /**验证码实现思路：在Servlet中随机产生验证码字符序列，并计入session中，JSP中以图片的形式进行显示。当用户在JSP表单中输入验证码并提交时，在相应的Servlet中验证是否与session中保存的验证码一致。
  */
